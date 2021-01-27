@@ -59,8 +59,7 @@ public with sharing class XeroCalloutService {
             }
         }
 
-        system.debug('### Xero Callout Endpoint: ' + request.getEndpoint());
-        system.debug('### Xero Callout Method: ' + request.getMethod());
+        system.debug('### Xero Request: ' + request.toString());
         system.debug('### Xero Callout Body: ' + request.getBody());
 
         // Debug headers

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Example object to show how Graphics could be used</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>First_3_awards__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( First_3_positions__c ,
+"Gold", IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxb3","Gold",16,16), 
+"Silver", IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxb6","Silver",16,16),
+"Bronze", IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxb0","Bronze",16,16),
+ "")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>First 3 Awards</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_3_medals__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( First_3_positions__c ,
+"Gold", IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxdo","Gold",16,16),
+"Silver", IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxdr","Silver",16,16),
+"Bronze", IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxdl","Bronze",16,16),
+"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>First 3 Medals</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_3_positions__c</fullName>
+        <externalId>false</externalId>
+        <label>First 3 Positions</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bronze</fullName>
+                    <default>true</default>
+                    <label>Bronze</label>
+                </value>
+                <value>
+                    <fullName>Silver</fullName>
+                    <default>false</default>
+                    <label>Silver</label>
+                </value>
+                <value>
+                    <fullName>Gold</fullName>
+                    <default>false</default>
+                    <label>Gold</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Out_of_3_currency__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( VALUE(TEXT(Out_of_3_rating__c)) &gt; 0, IMAGE("/servlet/servlet.FileDownload?file=01530000001HxYZ", "£", 16, 16),"")
+ +
+IF ( VALUE(TEXT(Out_of_3_rating__c)) &gt; 1, IMAGE("/servlet/servlet.FileDownload?file=01530000001HxYY", "€", 16, 16),"")
++
+IF ( VALUE(TEXT(Out_of_3_rating__c)) &gt; 2, IMAGE("/servlet/servlet.FileDownload?file=01530000001HxYX", "$", 16, 16),"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Out of 3 Currency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Out_of_3_lightbulbs__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( VALUE(TEXT(Out_of_3_rating__c)) &gt; 0, IMAGE("/servlet/servlet.FileDownload?file=01530000001HxdW", "*", 16, 16), IMAGE("/servlet/servlet.FileDownload?file=01530000001HxdX", "-", 16, 16))
+ +
+IF ( VALUE(TEXT(Out_of_3_rating__c)) &gt; 1, IMAGE("/servlet/servlet.FileDownload?file=01530000001HxdW", "*", 16, 16), IMAGE("/servlet/servlet.FileDownload?file=01530000001HxdX", "-", 16, 16))
++
+IF ( VALUE(TEXT(Out_of_3_rating__c)) &gt; 2, IMAGE("/servlet/servlet.FileDownload?file=01530000001HxdW", "*", 16, 16), IMAGE("/servlet/servlet.FileDownload?file=01530000001HxdX", "-", 16, 16))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Out of 3 Lightbulbs</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Out_of_3_rating__c</fullName>
+        <description>How many out of 3? 3 being best 0 being worst.</description>
+        <externalId>false</externalId>
+        <label>Out of 3 Rating</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>true</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Out_of_5_Ticks__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 0, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxfj", "*", 16, 16), IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxc3", "-", 16, 16))
++
+IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 1, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxfj", "*", 16, 16), IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxc3", "-", 16, 16))
++
+IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 2, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxfj", "*", 16, 16), IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxc3", "-", 16, 16))
++
+IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 3, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxfj", "*", 16, 16), IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxc3", "-", 16, 16))
++
+IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 4, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxfj", "*", 16, 16), IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxc3", "-", 16, 16))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Out of 5 Ticks</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Out_of_5_deck_chair__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 0, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxit", "*", 16, 16),"")
++
+IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 1, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxit", "*", 16, 16),"")
++
+IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 2, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxit", "*", 16, 16),"")
++
+IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 3, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxit", "*", 16, 16),"")
++
+IF ( VALUE(TEXT(Out_of_5_rating__c)) &gt; 4, IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxit", "*", 16, 16),"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Out of 5 Deck Chairs</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Out_of_5_rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Out of 5 Rating</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>true</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Red_Amber_Green_Bullet__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  Red_Amber_Green__c  ,
+"Red", IMAGE("/servlet/servlet.FileDownload?file=01530000001HxWF","Red",16,16),
+"Amber", IMAGE("/servlet/servlet.FileDownload?file=01530000001HxWB","Amber",16,16),
+"Green", IMAGE("/servlet/servlet.FileDownload?file=01530000001HxW9","Green",16,16),
+"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Red Amber Green Bullet</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Red_Amber_Green_Person__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Red_Amber_Green__c ,
+"Red", IMAGE("/servlet/servlet.FileDownload?file=01530000001HxaQ","Red",16,16),
+"Amber", IMAGE("/servlet/servlet.FileDownload?file=01530000001HxaP","Amber",16,16),
+"Green", IMAGE("/servlet/servlet.FileDownload?file=01530000001HxaO","Green",16,16),
+"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Red Amber Green Person</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Red_Amber_Green__c</fullName>
+        <externalId>false</externalId>
+        <label>Red Amber Green</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>true</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Amber</fullName>
+                    <default>false</default>
+                    <label>Amber</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Up_or_Down_Arrows__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  Up_or_Down__c,
+"Up", IMAGE("/servlet/servlet.FileDownload?file=01530000001HxhW","Up",16,16),
+"Down", IMAGE("/servlet/servlet.FileDownload?file=01530000001HxhU","Down",16,16),
+"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Up or Down Arrows</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Up_or_Down_Thumbs__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Up_or_Down__c ,
+"Up", IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxfi","Up",16,16),
+"Down", IMAGE("/servlet/servlet.FileDownload?file=01530000001Hxfh","Down",16,16),
+"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Up or Down Thumbs</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Up_or_Down__c</fullName>
+        <externalId>false</externalId>
+        <label>Up or Down</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Up</fullName>
+                    <default>true</default>
+                    <label>Up</label>
+                </value>
+                <value>
+                    <fullName>Down</fullName>
+                    <default>false</default>
+                    <label>Down</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Graphics Pack Example</label>
+    <nameField>
+        <displayFormat>{0}</displayFormat>
+        <label>Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Graphics Pack Examples</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

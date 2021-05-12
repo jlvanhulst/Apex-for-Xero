@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Agency_Invoice_Date__c</fullName>
+        <description>Last agency Invoice date.</description>
+        <externalId>false</externalId>
+        <label>Agency Invoice Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Invoicing Data</label>
+    <visibility>Public</visibility>
+</CustomObject>
